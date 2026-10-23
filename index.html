@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sagar & Akshay Fitness Group | Wellness Center</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4fff5;
+    color: #26352b;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #075c35, #16834a);
+    color: white;
+    text-align: center;
+    padding: 40px 18px;
+    border-bottom: 5px solid #d4af37;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+header p {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.tagline {
+    color: #ffedaa;
+    font-weight: bold;
+}
+
+nav {
+    background: #064629;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 13px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background: #16834a;
+    border-radius: 5px;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #075c35;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 25px;
+}
+
+.welcome {
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #d6ead9;
+    border-top: 4px solid #16834a;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 10px #0000000d;
+}
+
+.card h3 {
+    color: #075c35;
+    margin-top: 0;
+    font-size: 19px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.know-more {
+    background: #08743e;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.know-more:hover {
+    background: #064629;
+}
+
+.details {
+    display: none;
+    background: #f0faf1;
+    padding: 14px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-left: 3px solid #16834a;
+    font-size: 14px;
+}
+
+.details.open {
+    display: block;
+}
+
+.details ul {
+    padding-left: 20px;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    background: white;
+}
+
+.schedule th,
+.schedule td {
+    border: 1px solid #c9dfcd;
+    padding: 12px;
+    text-align: left;
+}
+
+.schedule th {
+    background: #08743e;
+    color: white;
+}
+
+.schedule tr:nth-child(even) {
+    background: #eff8f0;
+}
+
+.notice {
+    background: #fff8df;
+    border-left: 5px solid #d4af37;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.disclaimer {
+    background: #fff4f0;
+    border: 1px solid #edc4b6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.disclaimer h3 {
+    color: #9b3324;
+    margin-top: 0;
+}
+
+footer {
+    background: #064629;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 6px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .section-title {
+        font-size: 23px;
+    }
+
+    nav a {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .schedule th,
+    .schedule td {
+        padding: 8px;
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>SAGAR & AKSHAY FITNESS GROUP</h1>
+
+    <p>Welcome to Our Wellness & Fitness Center</p>
+
+    <p class="tagline">
+        Healthy Body • Healthy Mind • Healthy Lifestyle
+    </p>
+
+    <p>
+        Small Steps Today, Healthier Habits Tomorrow!
+    </p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#fitness">Fitness Sessions</a>
+    <a href="#health">Health Information</a>
+    <a href="#schedule">Workout Timetable</a>
+    <a href="#disclaimer">Disclaimer</a>
+</nav>
+
+<main class="container">
+
+    <!-- WELCOME -->
+
+    <section>
+        <div class="welcome">
+            <h2 class="section-title">Welcome to Our Group</h2>
+
+            <p>
+                Sagar & Akshay Fitness Group मध्ये तुमचे स्वागत आहे!
+                आमचा उद्देश नियमित शारीरिक हालचाल, व्यायाम,
+                योग, विश्रांती आणि चांगल्या जीवनशैलीच्या सवयींबद्दल
+                मार्गदर्शन देणे हा आहे.
+            </p>
+
+            <p>
+                प्रत्येक व्यक्तीची गरज, क्षमता आणि आरोग्य वेगवेगळे
+                असते. त्यामुळे आपल्या क्षमतेनुसार सुरुवात करा आणि
+                हळूहळू चांगल्या सवयी विकसित करा.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- FITNESS SESSIONS -->
+
+    <section id="fitness">
+
+        <h2 class="section-title">Our Fitness Sessions</h2>
+
+        <p class="section-intro">
+            Explore our fitness sessions and learn how regular
+            movement can support your everyday well-being.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌅 Morning Workout</h3>
+
+                <p>
+                    दिवसाची सुरुवात हलक्या हालचाली आणि व्यायामाने करा.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('morning', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="morning">
+                    <p><strong>Morning Workout मध्ये:</strong></p>
+
+                    <ul>
+                        <li>हलका वॉर्म-अप</li>
+                        <li>सोपे बॉडी मूव्हमेंट्स</li>
+                        <li>क्षमतानुसार हलका व्यायाम</li>
+                        <li>कूल-डाउन आणि रिलॅक्सेशन</li>
+                    </ul>
+
+                    <p>
+                        व्यायामाची तीव्रता तुमच्या वयाला आणि
+                        शारीरिक क्षमतेला अनुरूप ठेवा.
+                    </p>
+
+                    <p>
+                        <strong>टीप:</strong> आमच्या केंद्राचे
+                        अचूक Morning Workout Timetable नंतर
+                        अपडेट केले जाईल.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>🧘 Yoga & Meditation</h3>
+
+                <p>
+                    शरीराची हालचाल, एकाग्रता आणि शांततेसाठी
+                    योग व ध्यानाचा सराव.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('yoga', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="yoga">
+                    <ul>
+                        <li>सोप्या योगासनांचा सराव</li>
+                        <li>आरामदायक स्थितीत बसण्याचा सराव</li>
+                        <li>श्वासाकडे लक्ष देणे</li>
+                        <li>एकाग्रता आणि शांततेसाठी ध्यान</li>
+                    </ul>
+
+                    <p>
+                        सुरुवातीला सोपी आसने निवडा.
+                        वेदना किंवा चक्कर आल्यास थांबा.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>🌿 Healthy Lifestyle</h3>
+
+                <p>
+                    रोजच्या जीवनात आरोग्यदायी सवयी विकसित करा.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('lifestyle', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="lifestyle">
+                    <ul>
+                        <li>नियमित झोपेची वेळ ठेवणे</li>
+                        <li>संतुलित आणि विविध आहार घेणे</li>
+                        <li>दिवसभर नियमित हालचाल करणे</li>
+                        <li>पुरेसे पाणी पिणे</li>
+                        <li>विश्रांतीसाठी वेळ काढणे</li>
+                        <li>आरोग्य तपासणीकडे लक्ष देणे</li>
+                    </ul>
+
+                    <p>
+                        छोट्या सवयी सातत्याने पाळल्याने
+                        दीर्घकाळ आरोग्याला मदत होऊ शकते.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>🤸 Flexibility & Stretching</h3>
+
+                <p>
+                    शरीराची लवचिकता आणि हालचालींची सहजता
+                    टिकवण्यासाठी स्ट्रेचिंग.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('stretching', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="stretching">
+                    <ul>
+                        <li>व्यायामापूर्वी हलका वॉर्म-अप</li>
+                        <li>हात आणि खांद्यांच्या सौम्य हालचाली</li>
+                        <li>पाय आणि घोट्यांच्या हालचाली</li>
+                        <li>क्षमतानुसार हलके स्ट्रेचिंग</li>
+                    </ul>
+
+                    <p>
+                        झटके देऊ नका आणि शरीरावर जबरदस्ती करू नका.
+                        तीव्र वेदना झाल्यास व्यायाम थांबवा.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>🌬️ Breathing & Relaxation</h3>
+
+                <p>
+                    शांतपणे श्वास घेण्याचा आणि विश्रांतीचा सराव.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('breathing', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="breathing">
+                    <ul>
+                        <li>आरामदायक स्थितीत बसा</li>
+                        <li>श्वास नैसर्गिक आणि सहज ठेवा</li>
+                        <li>श्वास आत येताना आणि बाहेर जाताना लक्ष द्या</li>
+                        <li>काही मिनिटे शांतपणे विश्रांती घ्या</li>
+                    </ul>
+
+                    <p>
+                        श्वास रोखण्याची गरज नाही.
+                        चक्कर किंवा अस्वस्थता वाटल्यास थांबा.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h3>🚶 Walking & Movement</h3>
+
+                <p>
+                    चालणे आणि दैनंदिन हालचालींना
+                    आपल्या दिनक्रमाचा भाग बनवा.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('walking', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="walking">
+                    <ul>
+                        <li>आपल्या क्षमतेनुसार चालण्यास सुरुवात करा</li>
+                        <li>सुरक्षित जागी चालण्याचा सराव करा</li>
+                        <li>खूप वेळ एकाच जागी बसणे टाळा</li>
+                        <li>कामाच्या मध्ये छोटे मूव्हमेंट ब्रेक घ्या</li>
+                        <li>हळूहळू वेळ किंवा अंतर वाढवा</li>
+                    </ul>
+
+                    <p>
+                        हालचाल कमी असलेल्या व्यक्तींनी सुरुवात
+                        थोड्या वेळापासून करावी.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- WORKOUT TIMETABLE -->
+
+    <section id="schedule">
+
+        <h2 class="section-title">Morning Workout Timetable</h2>
+
+        <p class="section-intro">
+            खालील वेळापत्रक हे उदाहरण आहे.
+            केंद्राचे निश्चित वेळापत्रक मिळाल्यावर
+            ते त्यानुसार अपडेट केले जाईल.
+        </p>
+
+        <div style="overflow-x:auto;">
+
+            <table class="schedule">
+
+                <thead>
+                    <tr>
+                        <th>Activity</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Welcome & Preparation</td>
+                        <td>5 Minutes</td>
+                    </tr>
+
+                    <tr>
+                        <td>Warm-Up</td>
+                        <td>5–10 Minutes</td>
+                    </tr>
+
+                    <tr>
+                        <td>Light Workout & Movement</td>
+                        <td>10–15 Minutes</td>
+                    </tr>
+
+                    <tr>
+                        <td>Stretching</td>
+                        <td>5 Minutes</td>
+                    </tr>
+
+                    <tr>
+                        <td>Breathing & Relaxation</td>
+                        <td>5 Minutes</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <div class="notice">
+            <strong>Important:</strong>
+            हे सामान्य उदाहरण आहे, वैयक्तिक व्यायामाचा वैद्यकीय
+            सल्ला नाही. प्रत्यक्ष वेळापत्रक आणि व्यायामाची
+            तीव्रता सहभागी व्यक्तींच्या क्षमतेनुसार ठरवावी.
+        </div>
+
+    </section>
+
+
+    <!-- HEALTH INFORMATION -->
+
+    <section id="health">
+
+        <h2 class="section-title">Health & Wellness Information</h2>
+
+        <p class="section-intro">
+            खालील माहिती सामान्य आरोग्यजागृतीसाठी आहे.
+            प्रत्येक विषयावर अधिक माहिती जाणून घेण्यासाठी
+            Know More बटणावर क्लिक करा.
+        </p>
+
+        <div class="cards">
+
+
+            <!-- WEIGHT MANAGEMENT -->
+
+            <div class="card">
+                <h3>⚖️ Healthy Weight Management</h3>
+
+                <p>
+                    वजन व्यवस्थापनासाठी आरोग्यदायी सवयी
+                    आणि सातत्यपूर्ण दिनक्रम महत्त्वाचे आहेत.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('weight', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="weight">
+                    <ul>
+                        <li>नियमित शारीरिक हालचाल करा</li>
+                        <li>विविध अन्नपदार्थांचा समावेश असलेला संतुलित आहार घ्या</li>
+                        <li>पुरेशी झोप घ्या</li>
+                        <li>अतिशय कठोर आहारपद्धती टाळा</li>
+                        <li>वैयक्तिक गरजेनुसार तज्ज्ञांचा सल्ला घ्या</li>
+                    </ul>
+
+                    <p>
+                        वजन व्यवस्थापनाची गरज आणि योग्य पद्धत
+                        प्रत्येक व्यक्तीसाठी वेगळी असते.
+                    </p>
+
+                    <p>
+                        आमच्या केंद्रात वजन व्यवस्थापनासाठी
+                        उपलब्ध उत्पादनांविषयी माहिती दिली जाऊ शकते.
+                        कोणतेही उत्पादन वापरण्यापूर्वी त्याचे
+                        घटक, वापरण्याच्या सूचना आणि संभाव्य
+                        दुष्परिणाम तपासा.
+                    </p>
+
+                    <p>
+                        कोणतेही उत्पादन हमखास वजन कमी करेल
+                        किंवा आजार बरा करेल अशी हमी दिली जात नाही.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- HEALTHY LIFESTYLE -->
+
+            <div class="card">
+                <h3>🌱 Healthy Lifestyle</h3>
+
+                <p>
+                    रोजच्या आरोग्यदायी सवयी शारीरिक आणि
+                    मानसिक आरोग्याला मदत करू शकतात.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('healthyhabits', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="healthyhabits">
+                    <ul>
+                        <li>नियमित झोप आणि जागण्याची वेळ ठेवा</li>
+                        <li>संतुलित आहार घ्या</li>
+                        <li>दिवसभर हालचाल करत राहा</li>
+                        <li>ताण व्यवस्थापनासाठी वेळ काढा</li>
+                        <li>तंबाखू आणि इतर हानिकारक पदार्थांपासून दूर राहा</li>
+                        <li>गरजेनुसार आरोग्यतज्ज्ञांचा सल्ला घ्या</li>
+                    </ul>
+
+                    <p>
+                        प्रत्येक सवय एकाच वेळी बदलण्याची गरज नाही.
+                        छोट्या, व्यवहार्य बदलांपासून सुरुवात करा.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- SLEEP AND STRESS -->
+
+            <div class="card">
+                <h3>😴 Sleep & Stress</h3>
+
+                <p>
+                    झोप, विश्रांती आणि ताण यांचा दैनंदिन
+                    आरोग्यावर परिणाम होऊ शकतो.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('sleep', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="sleep">
+                    <ul>
+                        <li>नियमित झोपेची वेळ ठेवा</li>
+                        <li>झोपण्यापूर्वी शांत दिनक्रम ठेवा</li>
+                        <li>शांत श्वसन किंवा ध्यानाचा सराव करा</li>
+                        <li>दिवसभरात विश्रांतीसाठी वेळ काढा</li>
+                        <li>झोपेच्या अडचणी कायम राहिल्यास डॉक्टरांशी बोला</li>
+                    </ul>
+
+                    <p>
+                        ताणामुळे दैनंदिन जीवनावर परिणाम होत असल्यास
+                        मानसिक आरोग्यतज्ज्ञांची मदत घेणे योग्य आहे.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- SKIN HEALTH -->
+
+            <div class="card">
+                <h3>✨ Skin Health</h3>
+
+                <p>
+                    त्वचेची काळजी घेण्यासाठी नियमित आणि
+                    सौम्य स्किनकेअर उपयुक्त ठरू शकते.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('skin', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="skin">
+                    <ul>
+                        <li>त्वचा सौम्य पद्धतीने स्वच्छ करा</li>
+                        <li>त्वचेला अनुरूप मॉइश्चरायझर वापरा</li>
+                        <li>दिवसा योग्य सनस्क्रीन वापरा</li>
+                        <li>नवीन उत्पादन आधी छोट्या भागावर तपासा</li>
+                        <li>पुरळ किंवा त्रास कायम राहिल्यास त्वचारोगतज्ज्ञांना भेटा</li>
+                    </ul>
+
+                    <p>
+                        प्रत्येक व्यक्तीची त्वचा वेगळी असते.
+                        कोणतेही उत्पादन सर्वांना सारखे परिणाम
+                        देईलच असे नाही.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- BLOOD PRESSURE -->
+
+            <div class="card">
+                <h3>❤️ Blood Pressure</h3>
+
+                <p>
+                    रक्तदाब नियमित तपासणे आरोग्याची काळजी
+                    घेण्यासाठी महत्त्वाचे आहे.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('bp', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="bp">
+                    <ul>
+                        <li>योग्य पद्धतीने रक्तदाब तपासा</li>
+                        <li>मीठाचे अतिसेवन टाळा</li>
+                        <li>नियमित हालचाल करा</li>
+                        <li>डॉक्टरांनी सांगितलेली औषधे नियमित घ्या</li>
+                        <li>डॉक्टरांच्या सल्ल्याने फॉलो-अप करा</li>
+                    </ul>
+
+                    <p>
+                        उच्च रक्तदाबाची लक्षणे नेहमी जाणवतीलच असे नाही.
+                        त्यामुळे योग्य तपासणी महत्त्वाची आहे.
+                    </p>
+
+                    <p>
+                        व्यायाम किंवा कोणतेही उत्पादन हे
+                        डॉक्टरांच्या उपचारांचा पर्याय नाही.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- DIABETES -->
+
+            <div class="card">
+                <h3>🩺 Diabetes</h3>
+
+                <p>
+                    मधुमेहामध्ये रक्तातील ग्लुकोजची पातळी
+                    योग्य प्रकारे सांभाळणे महत्त्वाचे असते.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('diabetes', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="diabetes">
+                    <ul>
+                        <li>डॉक्टरांनी सांगितलेल्या तपासण्या करा</li>
+                        <li>संतुलित आहार आणि नियमित हालचाल याकडे लक्ष द्या</li>
+                        <li>रक्तातील साखर डॉक्टरांच्या सल्ल्यानुसार तपासा</li>
+                        <li>औषधे स्वतःहून बंद करू नका</li>
+                        <li>नियमित वैद्यकीय फॉलो-अप घ्या</li>
+                    </ul>
+
+                    <p>
+                        मधुमेहाचे निदान आणि उपचार हे
+                        वैद्यकीय तज्ज्ञांनी करावेत.
+                        कोणतेही फिटनेस उत्पादन मधुमेह बरा
+                        करते असा दावा करू नये.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- JOINT HEALTH -->
+
+            <div class="card">
+                <h3>🦴 Joint Health</h3>
+
+                <p>
+                    सांध्यांची हालचाल आणि दैनंदिन कार्यक्षमता
+                    टिकवण्यासाठी योग्य हालचाल महत्त्वाची आहे.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('joint', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="joint">
+                    <ul>
+                        <li>क्षमतेनुसार सौम्य हालचाली करा</li>
+                        <li>व्यायामाची तीव्रता हळूहळू वाढवा</li>
+                        <li>सांध्यांवर अनावश्यक ताण देऊ नका</li>
+                        <li>वेदना असल्यास योग्य वैद्यकीय सल्ला घ्या</li>
+                    </ul>
+
+                    <p>
+                        सांध्यांची सूज, तीव्र वेदना किंवा हालचाल
+                        करण्यात अडचण असल्यास डॉक्टरांना भेटा.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- MIGRAINE -->
+
+            <div class="card">
+                <h3>🧠 Migraine</h3>
+
+                <p>
+                    मायग्रेन हा डोकेदुखीचा एक प्रकार आहे.
+                    काही व्यक्तींना प्रकाश, आवाज किंवा मळमळ
+                    यांचा त्रासही होऊ शकतो.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('migraine', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="migraine">
+                    <ul>
+                        <li>नियमित झोपेची सवय ठेवा</li>
+                        <li>जेवणाच्या वेळा शक्यतो नियमित ठेवा</li>
+                        <li>कोणत्या गोष्टींमुळे त्रास वाढतो ते नोंदवा</li>
+                        <li>डॉक्टरांच्या सल्ल्याने उपचार घ्या</li>
+                    </ul>
+
+                    <p>
+                        अचानक सुरू झालेली अत्यंत तीव्र डोकेदुखी
+                        किंवा नवीन गंभीर लक्षणे असल्यास तातडीची
+                        वैद्यकीय मदत घ्या.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- PCOS AND PCOD -->
+
+            <div class="card">
+                <h3>🌸 PCOS / PCOD</h3>
+
+                <p>
+                    PCOS ही हार्मोन्सशी संबंधित स्थिती आहे.
+                    मासिक पाळी अनियमित होणे किंवा मुरुम येणे
+                    यांसारखी लक्षणे काही व्यक्तींमध्ये दिसू शकतात.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('pcos', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="pcos">
+                    <ul>
+                        <li>मासिक पाळीतील बदलांकडे लक्ष द्या</li>
+                        <li>संतुलित आहार आणि नियमित हालचाल ठेवा</li>
+                        <li>पुरेशी झोप घ्या</li>
+                        <li>गरजेनुसार स्त्रीरोगतज्ज्ञांचा सल्ला घ्या</li>
+                    </ul>
+
+                    <p>
+                        PCOS चे निदान केवळ लक्षणांवरून करता येत नाही.
+                        डॉक्टर आवश्यक तपासण्यांनुसार निदान करतात.
+                    </p>
+
+                    <p>
+                        वजन कमी करणे किंवा कोणतेही उत्पादन
+                        वापरणे हा प्रत्येकासाठी एकच उपचार नसतो.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- THYROID -->
+
+            <div class="card">
+                <h3>🦋 Thyroid Health</h3>
+
+                <p>
+                    थायरॉइड ग्रंथी शरीरातील अनेक महत्त्वाच्या
+                    कार्यांवर परिणाम करणारे हार्मोन्स तयार करते.
+                </p>
+
+                <button class="know-more"
+                onclick="toggleDetails('thyroid', this)">
+                    Know More
+                </button>
+
+                <div class="details" id="thyroid">
+                    <ul>
+                        <li>डॉक्टरांच्या सल्ल्यानुसार तपासण्या करा</li>
+                        <li>औषधे सांगितल्याप्रमाणे घ्या</li>
+                        <li>नियमित फॉलो-अप करा</li>
+                        <li>झोप, आहार आणि हालचालींकडे लक्ष द्या</li>
+                    </ul>
+
+                    <p>
+                        थकवा किंवा वजनातील बदल यांसारखी लक्षणे
+                        अनेक कारणांमुळे होऊ शकतात.
+                        आवश्यक तपासणी डॉक्टर ठरवतात.
+                    </p>
+
+                    <p>
+                        कोणतेही फिटनेस उत्पादन थायरॉइडचा आजार
+                        बरा करते असा दावा करू नये.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- DISCLAIMER -->
+
+    <section id="disclaimer">
+
+        <div class="disclaimer">
+
+            <h3>Important Health Disclaimer</h3>
+
+            <p>
+                या वेबसाइटवरील माहिती केवळ सामान्य आरोग्यजागृती
+                आणि शैक्षणिक उद्देशासाठी आहे.
+            </p>
+
+            <p>
+                ही माहिती डॉक्टरांच्या तपासणी, वैद्यकीय निदान,
+                उपचार किंवा वैयक्तिक वैद्यकीय सल्ल्याचा पर्याय नाही.
+            </p>
+
+            <p>
+                Sagar & Akshay Fitness Group येथे व्यायाम,
+                शारीरिक हालचाल आणि आरोग्यदायी जीवनशैलीबद्दल
+                सामान्य मार्गदर्शन दिले जाते.
+            </p>
+
+            <p>
+                आमच्याकडे उपलब्ध असलेल्या वजन व्यवस्थापनाच्या
+                उत्पादनांबद्दल माहिती दिली जाऊ शकते.
+                उत्पादनांचा परिणाम प्रत्येक व्यक्तीनुसार वेगळा
+                असू शकतो. वजन कमी होण्याची किंवा विशिष्ट परिणाम
+                मिळण्याची हमी दिली जात नाही.
+            </p>
+
+            <p>
+                कोणतेही उत्पादन वापरण्यापूर्वी त्याचे घटक,
+                वापरण्याच्या सूचना आणि संभाव्य दुष्परिणाम समजून घ्या.
+                आजार असल्यास, औषधे घेत असल्यास किंवा उत्पादन
+                तुमच्यासाठी योग्य आहे का याबद्दल शंका असल्यास
+                डॉक्टर किंवा योग्य आरोग्यतज्ज्ञांचा सल्ला घ्या.
+            </p>
+
+            <p>
+                कोणतेही उत्पादन आजाराचे निदान, प्रतिबंध किंवा
+                उपचार करण्यासाठी आहे असा दावा या वेबसाइटवर केला
+                जात नाही. डॉक्टरांनी दिलेली औषधे स्वतःहून बंद
+                करू नयेत.
+            </p>
+
+            <p>
+                व्यायाम करताना वेदना, चक्कर किंवा अस्वस्थता
+                जाणवल्यास थांबा आणि आवश्यकतेनुसार वैद्यकीय
+                मदत घ्या.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <h3>Sagar & Akshay Fitness Group</h3>
+
+    <p>Healthy Body • Healthy Mind • Healthy Lifestyle</p>
+
+    <p>Thank You for Visiting Our Website!</p>
+
+    <p>
+        © <span id="year"></span>
+        Sagar & Akshay Fitness Group
+    </p>
+</footer>
+
+
+<script>
+function toggleDetails(id, button) {
+
+    const details = document.getElementById(id);
+
+    if (!details) {
+        return;
+    }
+
+    details.classList.toggle("open");
+
+    if (details.classList.contains("open")) {
+        button.textContent = "Show Less";
+    } else {
+        button.textContent = "Know More";
+    }
+}
+
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
